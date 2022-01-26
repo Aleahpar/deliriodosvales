@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/deliriodosvales
+    username: deliriodosvales
+    password: delirio123
+  liquibase:
+    change-log: classpath:liquibase/master.xml

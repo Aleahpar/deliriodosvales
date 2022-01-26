@@ -1,0 +1,6 @@
+services:
+  deliriodosvales-postgresql:
+    container_name: deliriodosvales-postgresql
+    extends:
+      file: container/postgresql.yml
+      service: deliriodosvales-postgresql

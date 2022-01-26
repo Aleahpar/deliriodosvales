@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.5.xsd">
+
+    <changeSet id="1643210277721-1" author="raphaela.barreto">
+
+        <createTable tableName="tb_pessoa">
+            <column name="id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="pk_tb_pessoa"/>
+            </column>
+            <column name="nome" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="data_nascimento" type="DATETIME">
+                <constraints nullable="false"/>
+            </column>
+            <column name="cidade" type="VARCHAR(50)"/>
+            <column name="estado" type="VARCHAR(2)"/>
+            <column name="telefone" type="VARCHAR(20)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="email" type="VARCHAR(200)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="foto" type="VARCHAR(200)"/>
+        </createTable>
+
+        <createTable tableName="tb_onibus">
+            <column name="id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="pk_tb_onibus"/>
+            </column>
+            <column name="cidade" type="VARCHAR(50)"/>
+            <column name="estado" type="VARCHAR(2)"/>
+            <column name="nome_linha" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="inicio_circulacao" type="TIME"/>
+            <column name="fim_circulacao" type="TIME"/>
+        </createTable>
+
+        <createTable tableName="tb_passe">
+            <column name="id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="pk_tb_passe"/>
+            </column>
+            <column name="codigo_rfid" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="saldo" type="DOUBLE">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ativo" type="BOOLEAN">
+                <constraints nullable="false"/>
+            </column>
+            <column name="categoria_estudantil" type="BOOLEAN">
+                <constraints nullable="false"/>
+            </column>
+            <column name="id_pessoa" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+
+        <addUniqueConstraint columnNames="codigo_rfid" constraintName="uc_tb_passe_codigo_rfid" tableName="tb_passe"/>
+        <addUniqueConstraint columnNames="id_pessoa" constraintName="uc_tb_passe_id_pessoa" tableName="tb_passe"/>
+        <addForeignKeyConstraint baseColumnNames="id_pessoa" baseTableName="tb_passe"
+                                 constraintName="FK_TB_PASSE_ON_ID_PESSOA" referencedColumnNames="id"
+                                 referencedTableName="tb_pessoa"/>
+
+        <createTable tableName="tb_cobranca_viagem">
+            <column name="id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="pk_tb_cobranca_viagem"/>
+            </column>
+            <column name="id_passe" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="id_onibus" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="data_hora" type="TIME">
+                <constraints nullable="false"/>
+            </column>
+            <column name="valor" type="DOUBLE">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+
+        <addUniqueConstraint columnNames="id_onibus" constraintName="uc_tb_cobranca_viagem_id_onibus"
+                             tableName="tb_cobranca_viagem"/>
+        <addUniqueConstraint columnNames="id_passe" constraintName="uc_tb_cobranca_viagem_id_passe"
+                             tableName="tb_cobranca_viagem"/>
+        <addForeignKeyConstraint baseColumnNames="id_onibus" baseTableName="tb_cobranca_viagem"
+                                 constraintName="FK_TB_COBRANCA_VIAGEM_ON_ID_ONIBUS" referencedColumnNames="id"
+                                 referencedTableName="tb_onibus"/>
+        <addForeignKeyConstraint baseColumnNames="id_passe" baseTableName="tb_cobranca_viagem"
+                                 constraintName="FK_TB_COBRANCA_VIAGEM_ON_ID_PASSE" referencedColumnNames="id"
+                                 referencedTableName="tb_passe"/>
+    </changeSet>
+
+    <changeSet id="1643208012628-2" author="raphaela.barreto">
+        <createSequence sequenceName="SEQ_PESSOA" startValue="1" incrementBy="1"/>
+        <createSequence sequenceName="SEQ_ONIBUS" startValue="1" incrementBy="1"/>
+        <createSequence sequenceName="SEQ_PASSE" startValue="1" incrementBy="1"/>
+        <createSequence sequenceName="SEQ_COBRANCA_VIAGEM" startValue="1" incrementBy="1"/>
+    </changeSet>
+
+</databaseChangeLog>
