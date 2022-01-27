@@ -40,5 +40,4 @@ public class CobrancaViagem {
     @Column(name = "VALOR", nullable = false)
     private Double valor;
 
-
 }

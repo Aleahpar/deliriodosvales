@@ -18,6 +18,7 @@ import javax.persistence.Table;
 @Getter
 @Setter
 public class Passe {
+
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_PASSE")
     @SequenceGenerator(name = "SEQ_PASSE", sequenceName = "SEQ_PASSE", allocationSize = 1)
@@ -31,10 +32,10 @@ public class Passe {
     private Double saldo;
 
     @Column(name = "ATIVO", nullable = false)
-    private Boolean ativo = false;
+    private Boolean ativo;
 
     @Column(name = "CATEGORIA_ESTUDANTIL", nullable = false)
-    private Boolean categoriaEstudantil = false;
+    private Boolean categoriaEstudantil;
 
     @ManyToOne(optional = false)
     @JoinColumn(name = "ID_PESSOA", nullable = false, unique = true)

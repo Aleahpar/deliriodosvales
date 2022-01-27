@@ -5,3 +5,6 @@ spring:
     password: delirio123
   liquibase:
     change-log: classpath:liquibase/master.xml
+
+server:
+  port: 8081
