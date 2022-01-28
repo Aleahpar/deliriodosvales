@@ -1,0 +1,98 @@
+POST http://localhost:8081/api/pessoas
+Content-Type: application/json
+
+{
+  "id": 9999933,
+  "nome": "Arthur Bel ato",
+  "dataNascimento": "2021-02-22",
+  "cidade": "Colatina",
+  "estado": "ES",
+  "telefone": "27999999999",
+  "foto": "documento",
+  "email": "arthurbeltao@gmail.com"
+}
+
+<> 2022-01-27T185759.201.json
+
+###
+
+POST http://localhost:8081/api/item
+Content-Type: application/json
+
+{
+  "id": 9999933,
+  "nome": "Arthur Bel ato",
+  "dataNascimento": "2021-02-22",
+  "cidade": "Colatina",
+  "estado": "ES",
+  "telefone": "27999999999",
+  "foto": "documento",
+  "email": "arthurbeltao@gmail.com"
+}
+
+<> 2022-01-27T185742.404.json
+
+###
+
+POST http://localhost:80/api/item
+Content-Type: application/json
+
+{
+  "id": 9999933,
+  "nome": "Arthur Bel ato",
+  "dataNascimento": "2021-02-22",
+  "cidade": "Colatina",
+  "estado": "ES",
+  "telefone": "27999999999",
+  "foto": "documento",
+  "email": "arthurbeltao@gmail.com"
+}
+
+###
+
+GET http://localhost:8081/api/pessoas
+
+<> 2022-01-27T185517.200.json
+
+###
+
+GET http://localhost:8081/api/pessoas
+
+<> 2022-01-27T185201.200.json
+
+###
+
+GET http://localhost:8081/api/pessoas
+
+<> 2022-01-27T155104.404.json
+
+###
+
+GET http://localhost:8080/api/pessoas
+
+<> 2022-01-27T154726.404.json
+
+###
+
+DELETE http://localhost:8080/api/pessoas/99992
+
+<> 2022-01-27T154623.404.json
+
+###
+
+GET http://localhost:8080/service/teste
+
+<> 2022-01-27T154357.404.json
+
+###
+
+GET http://service/teste
+
+###
+
+GET http://localhost:8080/api/pessoas
+
+<> 2022-01-27T154253.404.json
+
+###
+

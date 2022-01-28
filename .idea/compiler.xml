@@ -7,7 +7,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="documents" />
         <module name="document" />
       </profile>
       <profile name="Annotation profile for parent" enabled="true">
@@ -26,14 +25,12 @@
     <bytecodeTargetLevel>
       <module name="delirio dos vales" target="11" />
       <module name="document" target="11" />
-      <module name="documents" target="11" />
       <module name="service" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="document" options="-parameters" />
-      <module name="documents" options="-parameters" />
       <module name="service" options="-parameters" />
     </option>
   </component>

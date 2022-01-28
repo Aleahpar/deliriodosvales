@@ -11,7 +11,7 @@ import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
-import java.util.Date;
+import java.time.LocalDate;
 
 @Entity
 @Table(name = "TB_PESSOA")
@@ -31,7 +31,7 @@ public class Pessoa {
 
     @NotNull(message = "Data de Nascimento não pode ser nula.")
     @Column(name = "DATA_NASCIMENTO", nullable = false)
-    private Date dataNascimento;
+    private LocalDate dataNascimento;
 
     @Column(name = "CIDADE", length = 50)
     private String cidade;

@@ -4,55 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a395ff1-e7e2-47c3-be87-f58e1700c9c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_4_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/repository/CobrancaViagemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/repository/OnibusRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/repository/PasseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/repository/PessoaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/resource/CobrancaViagemResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/resource/OnibusResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/resource/PasseResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/resource/PessoaResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/service/CobrancaViagemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/service/OnibusService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/service/PasseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/service/PessoaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/service/dto/CobrancaViagemDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/service/dto/OnibusDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/service/dto/PasseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/service/dto/PessoaDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/service/mapper/CobrancaViagemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/service/mapper/EntityMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/service/mapper/OnibusMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/service/mapper/PasseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/service/mapper/PessoaMapper.java" afterDir="false" />
+    <list default="true" id="3a395ff1-e7e2-47c3-be87-f58e1700c9c2" name="Default Changelist" comment="Config Minio">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_carrotsearch_thirdparty_simple_xml_safe_2_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_30_1_1_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_14_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_minio_minio_8_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_69.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_8_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/deliriodosvales/container/minIO.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/src/main/java/br/com/rlb/deliriodosvales/document/service/MinioService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43241881-bac8-4522-9185-a18f795c57eb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43241881-bac8-4522-9185-a18f795c57eb.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43241881-bac8-4522-9185-a18f795c57eb/storage_v2/_src_/database/deliriodosvales.4devFQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/document/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/document/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/document/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/document/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/document/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/document/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/src/main/java/br/com/rlb/deliriodosvales/documents/DocumentsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/document/src/main/java/br/com/rlb/deliriodosvales/document/DocumentApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/src/main/java/resource/TesteResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/document/src/main/java/br/com/rlb/deliriodosvales/service/resource/TesteResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/document/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/src/main/resources/banner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/src/test/java/br/com/rlb/deliriodosvales/documents/DocumentsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/document/src/test/java/br/com/rlb/deliriodosvales/documents/DocumentsApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/domain/CobrancaViagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/domain/CobrancaViagem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/domain/Passe.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/domain/Passe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/resource/TesteResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/resource/TesteResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/service/client/DocumentClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/service/client/DocumentClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/deliriodosvales/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/deliriodosvales/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/document/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/src/main/java/br/com/rlb/deliriodosvales/document/DocumentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/document/src/main/java/br/com/rlb/deliriodosvales/document/service/DocumentApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/src/main/java/br/com/rlb/deliriodosvales/service/resource/TesteResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/document/src/main/java/br/com/rlb/deliriodosvales/document/resource/TesteResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/domain/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/domain/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/service/dto/PessoaDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/br/com/rlb/deliriodosvales/service/service/dto/PessoaDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +56,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="4" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -113,23 +94,27 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/document" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.12578619" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="project.structure.side.proportion" value="0.18820469" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/documents/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/document/src/main/java/br/com/rlb/deliriodosvales/document" />
+      <recent name="$PROJECT_DIR$/document/src/main/java/br/com/rlb/deliriodosvales/service" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.rlb.deliriodosvales.document" />
       <recent name="br.com.rlb.deliriodosvales.service" />
       <recent name="br.com.rlb.deliriodosvales" />
     </key>
@@ -148,8 +133,13 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
+    <option name="excludedTypes">
+      <set>
+        <option value="HttpClient.HttpRequestRunConfigurationType" />
+      </set>
+    </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceApplication">
+  <component name="RunManager" selected="Spring Boot.DocumentApplication">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -166,17 +156,21 @@
     <configuration name="generated-requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" runType="Run single request">
-      <method v="2" />
-    </configuration>
     <configuration name="generated-requests#4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="generated-requests#5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="5" runType="Run single request">
       <method v="2" />
+    </configuration>
+    <configuration name="generated-requests#7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="7" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="DocumentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="document" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.rlb.deliriodosvales.document.DocumentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service" />
@@ -187,21 +181,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="deliriodosvales: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker/deliriodosvales/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Spring Boot.ServiceApplication" />
-      <item itemvalue="HTTP Request.generated-requests#1" />
-      <item itemvalue="HTTP Request.generated-requests#2" />
-      <item itemvalue="HTTP Request.generated-requests#3" />
+      <item itemvalue="Docker.deliriodosvales: Compose Deployment" />
       <item itemvalue="HTTP Request.generated-requests#4" />
       <item itemvalue="HTTP Request.generated-requests#5" />
+      <item itemvalue="HTTP Request.generated-requests#7" />
+      <item itemvalue="HTTP Request.generated-requests#1" />
+      <item itemvalue="Spring Boot.ServiceApplication" />
+      <item itemvalue="Spring Boot.DocumentApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.deliriodosvales: Compose Deployment" />
+        <item itemvalue="HTTP Request.generated-requests#1" />
+        <item itemvalue="HTTP Request.generated-requests#7" />
         <item itemvalue="HTTP Request.generated-requests#5" />
         <item itemvalue="HTTP Request.generated-requests#4" />
-        <item itemvalue="HTTP Request.generated-requests#3" />
-        <item itemvalue="HTTP Request.generated-requests#2" />
-        <item itemvalue="HTTP Request.generated-requests#1" />
       </list>
     </recent_temporary>
   </component>
@@ -219,8 +222,18 @@
       <workItem from="1643198499038" duration="110000" />
       <workItem from="1643205415911" duration="19421000" />
       <workItem from="1643287440989" duration="10855000" />
-      <workItem from="1643304040303" duration="7295000" />
+      <workItem from="1643304040303" duration="8425000" />
+      <workItem from="1643319904936" duration="4386000" />
+      <workItem from="1643325332061" duration="4733000" />
     </task>
+    <task id="LOCAL-00001" summary="Add CRUDS: Pessoa , Onibus, Passe, CobranceViagem">
+      <created>1643315373746</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643315373746</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +251,11 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add CRUDS: Pessoa , Onibus, Passe, CobranceViagem" />
+    <MESSAGE value="Config Minio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Config Minio" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -252,5 +270,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

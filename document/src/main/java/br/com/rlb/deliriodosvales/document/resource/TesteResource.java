@@ -1,4 +1,4 @@
-package br.com.rlb.deliriodosvales.service.resource;
+package br.com.rlb.deliriodosvales.document.resource;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -4,3 +4,9 @@ services:
     extends:
       file: container/postgresql.yml
       service: deliriodosvales-postgresql
+
+  deliriodosvales-minio:
+    container_name: deliriodosvales-minio
+    extends:
+      file: container/minIO.yml
+      service: deliriodosvales-minio
